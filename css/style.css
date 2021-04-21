@@ -1,0 +1,100 @@
+/* ---------------------- */
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------------------- */
+/* COMMON */
+
+.container {
+  max-width: 990px;
+  margin: auto;
+  padding: 50px;
+}
+
+body {
+  /* FONT */
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* ---------------------- */
+/* TODO LIST */
+
+.todo-list-container {
+  /* COLOR */
+  background-color: #ededed;
+  /* SHAPE */
+  border-radius: 20px;
+  padding: 50px;
+}
+
+/* ---------------------- */
+/* LOGO */
+
+.logo {
+  width: 300px;
+  margin: auto;
+}
+
+/* ---------------------- */
+/* NEW TODO */
+
+.new-todo {
+  text-align: center;
+  padding: 50px;
+}
+
+.new-todo .todo-input {
+  /* SHAPE */
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  /* COLOR */
+  border: 1px solid #757575;
+  /* POINTER */
+  cursor: pointer;
+  /* OUTLINE */
+  outline: none;
+}
+
+.new-todo button {
+  /* SHAPE */
+  padding: 10px 20px;
+  border-radius: 10px;
+  /* COLOR */
+  border: 1px solid #757577;
+  /* POINTER */
+  cursor: pointer;
+}
+
+.new-todo button:active {
+  background-color: #fff;
+}
+
+/* ---------------------- */
+/* TODO ITEM */
+
+.todo-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.todo-list .delete-list-item {
+  float: right;
+  /* POINTER */
+  cursor: pointer;
+}
